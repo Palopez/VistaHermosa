@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Empleado
-    Created on : 13-sep-2018, 21:27:54
+    Document   : Asistenca
+    Created on : 13-sep-2018, 21:27:33
     Author     : pablo
 --%>
 
@@ -21,7 +21,7 @@
         <!--menu de navegación-->
         <div class="topnav">
             <a href="../Principal.jsp">Inicio</a>
-            <a href="../Asistencia/Asistencia.jsp">Asistencia</a>
+            <a href="Asistencia.jsp">Asistencia</a>
             <a href="../Departamento/Departamento.jsp">Departamentos</a>
             <a href="../Empleado/Empleado.jsp">Empleados</a>
             <a href="../EstadoPermiso/EstadoPermiso.jsp">Estados Permiso</a>
@@ -36,6 +36,6 @@
             <a href="../Login.jsp">Cerrar Sesion</a>
         </div>
         <div class="column middle">
-            <h2>Empleado</h2>
+            <h2>Asistencia</h2>
         </div>
 </html>

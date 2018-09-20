@@ -11,6 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Style/CSS/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title>Inicio</title>
     </head>
      <body class="principal">
@@ -19,30 +22,27 @@
             Municipalidad Vista Hermosa
         </header>
         <!--menu de navegación-->
-        <div class="topnav">
-            <a href="index.jsp">Inicio</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="Login.jsp">Permisos Funcionario</a>
+       <div class="topnav">
+           <a href="index.jsp"><span class="glyphicon glyphicon-home"> Inicio</a>
+            <a href="#"><span class="glyphicon glyphicon-check"> Beneficios</a>
+            <a href="#"><span class="glyphicon glyphicon-bullhorn"> Noticias</a>
+            <a href="Login.jsp"><span class="glyphicon glyphicon-calendar"> Permisos Funcionario</a>
         </div>
          <div class="login">
-            <div>
-            <td>Bienvenido</td>
-            </div>
-            <div>
-                <br>
-                    <td>Usuario:</td>    
-                        <td><INPUT type=text name=login></td>
-                    </br>
-                <br>
-                    <td>Contraseña:</td> 
-                    <td><INPUT type=password name=password></td>
-                </br>
-            </div>
-        <div>
-            <INPUT type=button value=Ingresar>
+             <div class="login-page">     
+                <div class="form">
+                    <div>
+                    <td>Bienvenido</td>
+                    </div>
+                    <form class="login-form">
+                      <input type="text" placeholder="Usuario"/>
+                      <input type="password" placeholder="Contraseña"/>
+                      <button>Iniciar Sesion</button>
+                    </form>
+                </div>
+            </div> 
         </div>
-            
+        <div class="footer">
+            <p>Municipalidad Vista Hermosa 2018</p>
         </div>
 </html>

@@ -10,5 +10,8 @@ package Modelo;
  * @author pablo
  */
 public class EvaluacionDesempenio {
-    
+   private int id_evaluacion;
+   private int evaluacion;
+   private String Comentarios;
+   private int id_asistencia;
 }

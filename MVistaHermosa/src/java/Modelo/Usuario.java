@@ -10,5 +10,10 @@ package Modelo;
  * @author pablo
  */
 public class Usuario {
-    
+    private int id_usuario;
+    private String usuario;
+    private String password;
+    private String correo_empresa;
+    private int id_rrhh;
+    private int id_perfil;
 }

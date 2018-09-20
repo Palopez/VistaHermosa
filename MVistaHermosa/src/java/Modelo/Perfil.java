@@ -10,5 +10,7 @@ package Modelo;
  * @author pablo
  */
 public class Perfil {
-    
+    private int id_perfil;
+    private String perfil;
+    private int id_rol;
 }

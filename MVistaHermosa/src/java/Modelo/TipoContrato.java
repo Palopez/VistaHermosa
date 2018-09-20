@@ -10,5 +10,6 @@ package Modelo;
  * @author pablo
  */
 public class TipoContrato {
-    
+    private int id_tipo_contrato;
+    private String tipo_contrato;
 }

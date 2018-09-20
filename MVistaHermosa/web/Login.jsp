@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Style/CSS/style.css">
-        <title>JSP Page</title>
+        <title>Inicio</title>
     </head>
      <body class="principal">
         <!-- titulo de la pagina web-->

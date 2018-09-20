@@ -10,5 +10,6 @@ package Modelo;
  * @author pablo
  */
 public class EstadoPermiso {
-    
+    private int id_estado;
+    private String estado;
 }

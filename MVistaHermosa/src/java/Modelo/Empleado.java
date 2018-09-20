@@ -10,5 +10,9 @@ package Modelo;
  * @author pablo
  */
 public class Empleado {
-    
+    private int id_empleado;
+    private int id_tipo_contrato;
+    private int id_departamento;
+    private int id_usuario;
+    private int ud_evaluacion;
 }

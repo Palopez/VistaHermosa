@@ -10,5 +10,6 @@ package Modelo;
  * @author pablo
  */
 public class TipoPermiso {
-    
+    private int tipo_permiso;
+    private String permiso;
 }

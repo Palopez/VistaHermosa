@@ -10,5 +10,7 @@ package Modelo;
  * @author pablo
  */
 public class Departamento {
-    
+    private int id_departamento;
+    private String nombre;
+    private int id_jefe;
 }

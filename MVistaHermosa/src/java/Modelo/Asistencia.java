@@ -5,10 +5,19 @@
  */
 package Modelo;
 
+
+import java.util.Date;
+
 /**
  *
  * @author pablo
  */
 public class Asistencia {
+    private int id_asistencia;
+    private int id_empleado;
+    private Date hora_entrada;
+    private Date hora_salida;
+    private int mes;
+    private int anio;
     
 }

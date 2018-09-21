@@ -29,6 +29,6 @@
             <a href="#">Cerrar Sesión</a>
         </div>
         <div class="columnaMedio">
-            
+            <h2>Mis Datos</h2>
         </div>
 </html>

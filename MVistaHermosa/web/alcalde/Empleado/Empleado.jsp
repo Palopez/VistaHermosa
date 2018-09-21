@@ -29,6 +29,38 @@
             <a href="#">Cerrar Sesión</a>
         </div>
         <div class="columnaMedio">
-            <h2>Empleados</h2>
+            <h2>Solicitudes Empleados</h2>
+            <br/>
+            <br/>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Id Solicitud</th>
+                        <th>Fecha Inicio</th>
+                        <th>Fecha Termino</th>
+                        <th>Fecha Fecha Reincorporación</th>
+                        <th>Fecha Solicitud</th>
+                        <th>Comentario Jefe</th>
+                        <th>Tipo Permiso</th>
+                        <th>Estado Permiso</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <br/>
+            <br/>
         </div>
 </html>

@@ -25,10 +25,11 @@
         <div class="topnav">
             <a href="../Principal.jsp">Inicio</a>
             <a href="Permiso.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
+           
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
-            <h2>Mis Solicitudes</h2>
+            <h3>Mis Solicitudes</h3>
             <br/>
             <a class="btn btn-default" href="CrearPermiso.jsp">Crear Solicitud</a>
             <br/>

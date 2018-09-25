@@ -36,25 +36,27 @@
         <div class="topnav">
             <a href="../Principal.jsp">Inicio</a>
             <a href="Permiso.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
+           
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
             <h2>Solicitudes</h2>
+            <br/>
             
             <form action="" method='post'>
                 <table style="with: 50%">
 				<tr>
 					<td>Fecha Inicio</td>
-					<td><input type="text" name="first_name" /></td>
+					<td><input type="text" name="#datepicker_fi" /></td>
 				</tr>
                                 
 				<tr>
 					<td>Fecha Termino</td>
-					<td><input type="text" name="last_name" /></td>
+					<td><input type="text" name="#datepicker_ft" /></td>
 				</tr>
 				<tr>
 					<td>Fecha Reingreso</td>
-					<td><input type="text" name="username" /></td>
+					<td><input type="text" name="#datepicker_fr" /></td>
 				</tr>
 					<tr>
 					<td>Tipo Permiso</td>

@@ -29,9 +29,35 @@
         <div class="topnav">
             <a href="Principal.jsp">Inicio</a>
             <a href="SolicitudPermiso/Permiso.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
+            
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
-            <h2>Mis Datos</h2>
+            <h3>Mis Datos</h3>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Nombre</th>
+                        <th>Feriados Legales</th>
+                        <th>Permisos Administrativos</th>
+                        <th>Permisos Parentales</th>
+                        <th>Permisos por fallecimiento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <br/>
+            <br/>
+        </div>
         </div>
 </html>

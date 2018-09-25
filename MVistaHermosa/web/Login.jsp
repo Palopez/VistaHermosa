@@ -34,10 +34,11 @@
                     <div>
                     <td>Bienvenido</td>
                     </div>
-                    <form class="login-form">
-                      <input type="text" placeholder="Usuario"/>
-                      <input type="password" placeholder="Contraseña"/>
-                      <button>Iniciar Sesion</button>
+                    <!--Validacion de campos vacios pendientes, mientras tanto con required-->
+                    <form  action="Login" method="post" class="login-form">
+                        <input required oninvalid="Ingresar usuario" type="text" name="usuario" placeholder="Usuario"/>
+                        <input required oninvalid="Ingresar contraseña" type="password" name="password" placeholder="Contraseña"/>
+                      <button type="submit">Iniciar Sesion</button>
                     </form>
                 </div>
             </div> 

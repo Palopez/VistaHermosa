@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,9 +27,11 @@
             <a href="Principal.jsp">Inicio</a>
             <a href="Empleado/Empleado.jsp">Empleado</a>
             <a href="SolicitudPermiso/Solicitud.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
-            <h2>Mis Datos</h2>
+                
+            <h3>Mis Datos</h3>
+            
         </div>
 </html>

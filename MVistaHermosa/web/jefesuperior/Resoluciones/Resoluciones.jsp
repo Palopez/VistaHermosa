@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Empleado
-    Created on : 13-sep-2018, 21:35:07
+    Document   : Solicitud
+    Created on : 13-sep-2018, 21:35:15
     Author     : pablo
 --%>
 
@@ -24,11 +24,12 @@
         <!--menu de navegación-->
         <div class="topnav">
             <a href="../Principal.jsp">Inicio</a>
-            <a href="Empleado.jsp">Empleado</a>
-            <a href="../SolicitudPermiso/Solicitud.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
+            <a href="../Resoluciones/Resoluciones.jsp">Resoluciones Funcionarios</a>
+            <a href="../SolicitudPermiso/Solicitud.jsp">Mis Solicitudes</a>
+           
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
-            <h2>Empleados</h2>
+            <h3>Resoluciones de Funcionarios</h3>
         </div>
 </html>

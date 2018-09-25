@@ -183,12 +183,10 @@ body {
     margin-left: 5%;
     margin-right: 15%;
     background-color: white;
-    padding-top: 10px;
     padding-bottom: 10px;
     border-style: solid;
     border-color: gray;
-    float: left;
-    padding: 15px;
+    padding-top: 0px;
 }
 
 /* Clear floats after the columns */
@@ -226,6 +224,14 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+p.session{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+    border-style: groove;
+    border-color: gray;
 }
 
     

@@ -26,8 +26,8 @@
             <a href="../Principal.jsp">Inicio</a>
             <a href="../Empleado/Empleado.jsp">Empleado</a>
             <a href="Solicitud.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
         </div>
+       <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
  
             <h2>Mis Solicitudes</h2>

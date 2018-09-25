@@ -24,11 +24,12 @@
         <!--menu de navegación-->
         <div class="topnav">
             <a href="../Principal.jsp">Inicio</a>
-            <a href="../Empleado/Empleado.jsp">Empleado</a>
-            <a href="Solicitud.jsp">Solicitudes</a>
-            <a href="#">Cerrar Sesión</a>
+            <a href="../Empleado/Empleado.jsp">Solicitudes Empleados</a>
+            <a href="Solicitud.jsp">Mis Solicitudes</a>
+            
         </div>
+        <p class="session">Usuario: ${sessionScope.usuario} (<a  href="../../Login.jsp">Salir)</a></p>
         <div class="columnaMedio">
-            <h2>Solicitudes</h2>
+            <h3>Mis Solicitudes</h3>
         </div>
 </html>
